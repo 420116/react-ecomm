@@ -1,0 +1,27 @@
+.spinner {
+  display: inline-block;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.spinner:after {
+  content: " ";
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(226, 70, 13);
+  border-color: rgb(235, 35, 13) transparent rgb(255, 77, 0) transparent;
+  animation: spinner 1.2s ease-out infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

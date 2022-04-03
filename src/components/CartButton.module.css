@@ -1,0 +1,13 @@
+.cartBtn span {
+  font-size: 12px;
+  background-color: #802c6e;
+  border-radius: 30px;
+  color: #ffffff;
+  text-align: start;
+  padding: 0.4rem;
+}
+
+.cartBtn {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
